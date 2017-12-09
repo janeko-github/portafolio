@@ -9,13 +9,13 @@ export class InformacionService {
   equipo:any[] = [];
 
   constructor(public http:Http) {
-    this.carga_info;
+    this.carga_info();
     this.carga_sobre_nosotros();
   }
   public carga_info(){
     this.http.get("assets/data/info.pagina.json")
       .subscribe(data =>{
-        // console.log(data.json());
+        //  console.log(data.json());
         this.cargada=true;
         this.info = data.json();
       })
