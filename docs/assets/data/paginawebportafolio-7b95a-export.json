@@ -1,0 +1,21 @@
+{
+  "equipos" : [ {
+    "frase" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+    "nombre" : "Pedro Alarcón",
+    "subtitulo" : "Instructor",
+    "twitter" : "@pedroalarcon",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/paginawebportafolio-7b95a.appspot.com/o/team-3.jpg?alt=media&token=fa144dbf-320b-40ab-959e-bd8878ffefc2"
+  }, {
+    "frase" : "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+    "nombre" : "Melissa Flores",
+    "subtitulo" : "Master",
+    "twitter" : "@Melissa",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/paginawebportafolio-7b95a.appspot.com/o/team-2.jpg?alt=media&token=ee823e2e-e141-43cf-991c-990e3f829667"
+  }, {
+    "frase" : "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "nombre" : "Hernando Vallejo",
+    "subtitulo" : "Licenciado",
+    "twitter" : "@nandovallejo",
+    "url" : "https://firebasestorage.googleapis.com/v0/b/paginawebportafolio-7b95a.appspot.com/o/team-1.jpg?alt=media&token=d9d76592-1f25-4e5e-a2fc-ca6a56d421bb"
+  } ]
+}
