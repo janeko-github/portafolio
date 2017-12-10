@@ -9,10 +9,10 @@ import { InformacionService } from '../../services/informacion.service';
 })
 export class BuscarComponent {
   terminoabuscar:string;
-  constructor(private route:ActivatedRoute, private _ps:ProductosService, public _is:InformacionService) {
+  constructor(public route:ActivatedRoute, public _ps:ProductosService, public _is:InformacionService) {
     route.params.subscribe(parametros => {
       this.terminoabuscar = parametros['termino'];
-      
+
      _ps.buscar_productos(this.terminoabuscar);
     })
   }

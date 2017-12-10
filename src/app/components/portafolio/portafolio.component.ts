@@ -10,7 +10,7 @@ import { InformacionService } from '../../services/informacion.service';
 })
 export class PortafolioComponent {
 
-  constructor(private _ps:ProductosService,private _is:InformacionService) {
+  constructor(public _ps:ProductosService,public _is:InformacionService) {
   }
 
 }
