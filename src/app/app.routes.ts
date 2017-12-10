@@ -5,7 +5,7 @@ const app_routes: Routes = [
   { path: 'home', component: PortafolioComponent },
   { path: 'about', component: AboutComponent },
   { path: 'portafolioitem/:id', component: PortafolioItemComponent },
-  { path: 'buscar', component: BuscarComponent },
+  { path: 'buscar/:termino', component: BuscarComponent },
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
